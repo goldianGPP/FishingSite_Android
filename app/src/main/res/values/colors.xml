@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <!-- Used Color -->
+    <color name="blue">#00e5ff</color>
+    <color name="dark_blue">#031987</color>
+    <color name="yellow">#fffa69</color>
+    <color name="green">#88ff4d</color>
+    <color name="grey">#9e9fa3</color>
+
+<!--    transparent color -->
+
+    <color name="tyellow">#99000000</color>
+</resources>
