@@ -5,11 +5,13 @@
     <color name="colorAccent">#D81B60</color>
 
     <!-- Used Color -->
-    <color name="blue">#00e5ff</color>
-    <color name="dark_blue">#031987</color>
-    <color name="yellow">#fffa69</color>
+    <color name="blue">#73d9f0</color>
+    <color name="dark_blue">#0047ba</color>
+    <color name="yellow">#ccad00</color>
     <color name="green">#88ff4d</color>
     <color name="grey">#9e9fa3</color>
+    <color name="white">#ffffff</color>
+    <color name="light_yellow">#ffcf30</color>
 
 <!--    transparent color -->
 

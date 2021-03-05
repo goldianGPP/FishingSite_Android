@@ -5,64 +5,73 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
 
-    <LinearLayout
-        android:id="@+id/linearLayout"
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        app:cardCornerRadius="10dp"
         android:layout_marginStart="20dp"
         android:layout_marginTop="10dp"
         android:layout_marginEnd="20dp"
         android:layout_marginBottom="10dp"
-        android:padding="20dp"
-        android:background="@drawable/border_rounded"
-        android:gravity="center_vertical"
-        android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
-
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginRight="10dp"
-            android:minWidth="120dp"
-            android:minHeight="150dp" />
-
         <LinearLayout
-            android:layout_width="wrap_content"
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:padding="20dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
 
-            <TextView
-                android:id="@+id/txtNama"
+            <ImageView
+                android:id="@+id/imgItem"
+                android:layout_width="120dp"
+                android:layout_height="150dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/img_untitled"
+                android:scaleType="fitXY"
+                android:foreground="@drawable/border_rounded"/>
+
+            <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:maxWidth="200dp"
-                android:text="Item Name"
-                android:textSize="20dp" />
+                android:orientation="vertical">
 
-            <TextView
-                android:id="@+id/txtHarga"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:maxWidth="200dp"
-                android:text="Harga"
-                android:textSize="20dp" />
+                <TextView
+                    android:id="@+id/txtNama"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxWidth="200dp"
+                    android:text="Item Name"
+                    android:textSize="20dp" />
 
-            <RatingBar
-                android:id="@+id/strRate"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:scaleX="0.3"
-                android:scaleY="0.3"
-                android:rating="2.3"
-                android:theme="@style/RatingBar"
-                android:transformPivotX="0dp"
-                android:transformPivotY="0dp"/>
+                <TextView
+                    android:id="@+id/txtHarga"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxWidth="200dp"
+                    android:text="Harga"
+                    android:textSize="20dp" />
+
+                <RatingBar
+                    android:id="@+id/strRate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scaleX="0.3"
+                    android:scaleY="0.3"
+                    android:rating="2.3"
+                    android:theme="@style/RatingBar"
+                    android:transformPivotX="0dp"
+                    android:transformPivotY="0dp"/>
+
+            </LinearLayout>
 
         </LinearLayout>
+    </androidx.cardview.widget.CardView>
 
-    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,1736 @@
+/BEGIN_TABLE AMCHEAD
+NAME A30
+VERS A8
+USER A30
+/BEGIN_DATA AMCHEAD
+S-Designor/CDM
+5.0.0
+
+/END_TABLE AMCHEAD
+
+/BEGIN_TABLE AMCMODL
+@       N5
+OID     N8
+MODL    N8
+NAME    A80
+CODE    A80
+LABL    A80
+DESC    TXT
+NOTE    TXT
+POID    N8
+PNAM    A80
+PCOD    A80
+USER    A80
+VERS    A8
+CDAT    N12
+MDAT    N12
+EDAT    N12
+ACCS    N5
+NUMR    N8
+/BEGIN_DATA AMCMODL
+3
+11
+11
+Model_5
+MODEL_5
+
+
+
+0
+
+
+
+
+1613498094
+1613738957
+0
+0
+11
+/END_TABLE AMCMODL
+
+/BEGIN_TABLE AMCDOMN
+@       N5
+OID     N8
+DOMN    N8
+NAME    A80
+CODE    A80
+DESC    TXT
+NOTE    TXT
+LABL    A80
+DTTP    A30
+MLEN    N8
+PREC    N2
+UNIT    A8
+FRMT    A20
+LVAL    A20
+HVAL    A20
+DVAL    A30
+UPPR    N1
+LOWR    N1
+NMDF    N1
+VALS    TXT
+CRUL    TXT
+SRUL    TXT
+/BEGIN_DATA AMCDOMN
+/END_TABLE AMCDOMN
+
+/BEGIN_TABLE AMCINFO
+@       N5
+OID     N8
+INFO    N8
+MODL    N8
+NAME    A80
+CODE    A80
+LABL    A80
+DESC    TXT
+NOTE    TXT
+DOMN    N8
+DTTP    A30
+MLEN    N8
+PREC    N2
+UNIT    A8
+FRMT    A20
+LVAL    A20
+HVAL    A20
+DVAL    A30
+UPPR    N1
+LOWR    N1
+NMDF    N1
+VALS    TXT
+CRUL    TXT
+SRUL    TXT
+NUMR    N8
+/BEGIN_DATA AMCINFO
+1
+2
+2
+11
+id_user
+ID_USER
+
+
+
+0
+I
+0
+0
+
+
+
+
+
+0
+0
+0
+
+
+
+0
+1
+4
+4
+11
+username
+USERNAME
+
+
+
+0
+A
+16
+0
+
+
+
+
+
+0
+0
+0
+
+
+
+0
+1
+6
+6
+11
+email
+EMAIL
+
+
+
+0
+A
+50
+0
+
+
+
+
+
+0
+0
+0
+
+
+
+0
+1
+8
+8
+11
+phone
+PHONE
+
+
+
+0
+A
+16
+0
+
+
+
+
+
+0
+0
+0
+
+
+
+0
+1
+10
+10
+11
+password
+PASSWORD
+
+
+
+0
+A
+16
+0
+
+
+
+
+
+0
+0
+0
+
+
+
+0
+1
+13
+13
+11
+id_item
+ID_ITEM
+
+
+
+0
+I
+0
+0
+
+
+
+
+
+0
+0
+0
+
+
+
+0
+1
+15
+15
+11
+nama
+NAMA
+
+
+
+0
+A
+50
+0
+
+
+
+
+
+0
+0
+0
+
+
+
+0
+1
+17
+17
+11
+description
+DESCRIPTION
+
+
+
+0
+A
+255
+0
+
+
+
+
+
+0
+0
+0
+
+
+
+0
+1
+19
+19
+11
+harga
+HARGA
+
+
+
+0
+A
+50
+0
+
+
+
+
+
+0
+0
+0
+
+
+
+0
+1
+21
+21
+11
+jumlah
+JUMLAH
+
+
+
+0
+I
+0
+0
+
+
+
+
+
+0
+0
+0
+
+
+
+0
+1
+23
+23
+11
+img
+IMG
+
+
+
+0
+A
+255
+0
+
+
+
+
+
+0
+0
+0
+
+
+
+0
+1
+26
+26
+11
+id_user_history
+ID_USER_HISTORY
+
+
+
+0
+I
+0
+0
+
+
+
+
+
+0
+0
+0
+
+
+
+0
+1
+28
+28
+11
+status
+STATUS
+
+
+
+0
+A
+10
+0
+
+
+
+
+
+0
+0
+0
+
+
+
+0
+1
+30
+30
+11
+date_create
+DATE_CREATE
+
+
+
+0
+DT
+0
+0
+
+
+
+
+
+0
+0
+0
+
+
+
+0
+1
+32
+32
+11
+date_update
+DATE_UPDATE
+
+
+
+0
+DT
+0
+0
+
+
+
+
+
+0
+0
+0
+
+
+
+0
+1
+35
+35
+11
+id_item_history
+ID_ITEM_HISTORY
+
+
+
+0
+I
+0
+0
+
+
+
+
+
+0
+0
+0
+
+
+
+0
+1
+41
+41
+11
+id_lokasi
+ID_LOKASI
+
+
+
+0
+I
+0
+0
+
+
+
+
+
+0
+0
+0
+
+
+
+0
+1
+44
+44
+11
+alamat
+ALAMAT
+
+
+
+0
+A
+50
+0
+
+
+
+
+
+0
+0
+0
+
+
+
+0
+1
+47
+47
+11
+rating
+RATING
+
+
+
+0
+F
+8
+0
+
+
+
+
+
+0
+0
+0
+
+
+
+0
+1
+49
+49
+11
+sum_user
+SUM_USER
+
+
+
+0
+I
+0
+0
+
+
+
+
+
+0
+0
+0
+
+
+
+0
+1
+52
+52
+11
+id_rating_lokasi
+ID_RATING_LOKASI
+
+
+
+0
+I
+0
+0
+
+
+
+
+
+0
+0
+0
+
+
+
+0
+1
+57
+57
+11
+id_review
+ID_REVIEW
+
+
+
+0
+I
+0
+0
+
+
+
+
+
+0
+0
+0
+
+
+
+0
+1
+59
+59
+11
+review
+REVIEW
+
+
+
+0
+A
+50
+0
+
+
+
+
+
+0
+0
+0
+
+
+
+0
+1
+62
+62
+11
+id_detail_item
+ID_DETAIL_ITEM
+
+
+
+0
+I
+0
+0
+
+
+
+
+
+0
+0
+0
+
+
+
+0
+1
+64
+64
+11
+ukuran
+UKURAN
+
+
+
+0
+A
+10
+0
+
+
+
+
+
+0
+0
+0
+
+
+
+0
+1
+66
+66
+11
+berat
+BERAT
+
+
+
+0
+A
+10
+0
+
+
+
+
+
+0
+0
+0
+
+
+
+0
+1
+68
+68
+11
+subrating
+SUBRATING
+
+
+
+0
+F
+8
+0
+
+
+
+
+
+0
+0
+0
+
+
+
+0
+1
+71
+71
+11
+id_jenis
+ID_JENIS
+
+
+
+0
+I
+0
+0
+
+
+
+
+
+0
+0
+0
+
+
+
+0
+1
+75
+75
+11
+id_tipe_item
+ID_TIPE_ITEM
+
+
+
+0
+I
+0
+0
+
+
+
+
+
+0
+0
+0
+
+
+
+0
+1
+79
+79
+11
+id_tipe_lokasi
+ID_TIPE_LOKASI
+
+
+
+0
+A
+10
+0
+
+
+
+
+
+0
+0
+0
+
+
+
+0
+3
+147
+147
+11
+id_detail_user
+ID_DETAIL_USER
+
+
+
+0
+I
+0
+0
+
+
+
+
+
+0
+0
+0
+
+
+
+0
+3
+157
+157
+11
+joran
+JORAN
+
+
+
+0
+A
+10
+0
+
+
+
+
+
+0
+0
+0
+
+
+
+0
+3
+159
+159
+11
+mata_kail
+MATA_KAIL
+
+
+
+0
+A
+10
+0
+
+
+
+
+
+0
+0
+0
+
+
+
+0
+3
+161
+161
+11
+benang
+BENANG
+
+
+
+0
+A
+10
+0
+
+
+
+
+
+0
+0
+0
+
+
+
+0
+/END_TABLE AMCINFO
+
+/BEGIN_TABLE AMCENTT
+@       N5
+OID     N8
+ENTT    N8
+MODL    N8
+NAME    A80
+CODE    A80
+LABL    A80
+DESC    TXT
+NOTE    TXT
+NBRC    N8
+GENE    N1
+NUMR    N8
+/BEGIN_DATA AMCENTT
+1
+1
+1
+11
+user
+USER
+user
+
+
+0
+1
+0
+3
+145
+145
+11
+detail_user
+DETAIL_USER
+detail_user
+
+
+0
+1
+0
+/END_TABLE AMCENTT
+
+/BEGIN_TABLE AMCRLSH
+@       N5
+OID     N8
+RLSH    N8
+NAME    A80
+CODE    A80
+LABL    A80
+DESC    TXT
+NOTE    TXT
+NUMR    N8
+ENTT1   N8
+ENTT2   N8
+NAME1   A80
+MANY1   N1
+MAND1   N1
+NAME2   A80
+MANY2   N1
+MAND2   N1
+RELT    N1
+NBRC    N8
+GENE    N1
+/BEGIN_DATA AMCRLSH
+1
+146
+146
+Relation_146
+RELATION_146
+
+
+
+0
+1
+145
+
+1
+0
+
+0
+0
+0
+0
+1
+/END_TABLE AMCRLSH
+
+/BEGIN_TABLE AMCPENT
+@       N5
+OID     N8
+PENT    N8
+ENTT    N8
+INFO    N8
+IDTF    N1
+MAND    N1
+DISP    N1
+NUMR    N8
+/BEGIN_DATA AMCPENT
+3
+3
+3
+1
+2
+1
+1
+1
+1
+3
+5
+5
+1
+4
+0
+0
+1
+2
+3
+7
+7
+1
+6
+0
+0
+1
+3
+3
+9
+9
+1
+8
+0
+0
+1
+4
+3
+11
+11
+1
+10
+0
+0
+1
+5
+3
+148
+148
+145
+147
+0
+0
+1
+1
+3
+158
+158
+145
+157
+0
+0
+1
+2
+3
+160
+160
+145
+159
+0
+0
+1
+3
+3
+162
+162
+145
+161
+0
+0
+1
+4
+/END_TABLE AMCPENT
+
+/BEGIN_TABLE AMCINHR
+@       N5
+OID     N8
+INHR    N8
+ENTT    N8
+NAME    A80
+CODE    A80
+LABL    A80
+DESC    TXT
+NOTE    TXT
+EXCL    N1
+INHA    N1
+SATN    A80
+SATC    A80
+DTTP    A30
+MLEN    N8
+/BEGIN_DATA AMCINHR
+/END_TABLE AMCINHR
+
+/BEGIN_TABLE AMCLINH
+@       N5
+OID     N8
+LINH    N8
+INHR    N8
+ENTT    N8
+/BEGIN_DATA AMCLINH
+/END_TABLE AMCLINH
+
+/BEGIN_TABLE AMCRULE
+@       N5
+OID     N8
+RULE    N8
+NAME    A80
+CODE    A80
+LABL    A80
+DESC    TXT
+NOTE    TXT
+TYPE    N5
+FLAG    N5
+CEXP    TXT
+SEXP    TXT
+LOBJ    TXT
+NUMR    N8
+/BEGIN_DATA AMCRULE
+/END_TABLE AMCRULE
+
+/BEGIN_TABLE AMCRPRT
+@       N5
+OID     N8
+RPRT    N8
+FLGS    N8
+NAME    A64
+DESC    A254
+TMLT    BIN
+/BEGIN_DATA AMCRPRT
+/END_TABLE AMCRPRT
+
+/BEGIN_TABLE AMCSLCT
+RPRT    N8
+MODL    N8
+LOBJ    TXT
+/BEGIN_DATA AMCSLCT
+/END_TABLE AMCSLCT
+
+/BEGIN_TABLE AMCFONT
+FONT    N5
+FNAM    A32
+FSIZ    N5
+FSTY    N5
+/BEGIN_DATA AMCFONT
+1
+Arial
+8
+0
+2
+MS Sans Serif
+8
+0
+3
+Arial
+8
+8
+4
+Arial
+6
+0
+/END_TABLE AMCFONT
+
+/BEGIN_TABLE AMCPENS
+PENS    N5
+PSTY    N5
+PCLR    N8
+PWID    N5
+/BEGIN_DATA AMCPENS
+1
+1
+0
+0
+2
+1
+255
+0
+/END_TABLE AMCPENS
+
+/BEGIN_TABLE AMCBRSH
+BRSH    N5
+BSTY    N5
+BCLR    N8
+BHAT    N5
+/BEGIN_DATA AMCBRSH
+1
+0
+16777215
+0
+2
+0
+32896
+0
+3
+0
+255
+0
+/END_TABLE AMCBRSH
+
+/BEGIN_TABLE AMCPROP
+PROP    N5
+MODL    N8
+SUBM    N8
+SECT    A30
+NPRO    A30
+VPRO    A80
+/BEGIN_DATA AMCPROP
+0
+1
+0
+DataArchitect
+Shadow
+yes
+1
+1
+0
+DataArchitect
+AutoAdjust
+yes
+2
+1
+0
+DataArchitect
+LineStyle
+2
+3
+1
+0
+DataArchitect
+PrnScale
+100
+4
+1
+0
+DataArchitect
+Orientation
+1
+5
+1
+0
+DataArchitect
+DefCheckName
+no
+6
+1
+0
+DataArchitect
+LengthName
+80
+7
+1
+0
+DataArchitect
+UpprCaseName
+no
+8
+1
+0
+DataArchitect
+LowrCaseName
+no
+9
+1
+0
+DataArchitect
+CaseSensName
+no
+10
+1
+0
+DataArchitect
+AllowAllName
+no
+11
+1
+0
+DataArchitect
+AllowChrName
+
+12
+1
+0
+DataArchitect
+InvldChrName
+"+-*/\.,!:;"
+13
+1
+0
+DataArchitect
+NoAccentName
+no
+14
+1
+0
+DataArchitect
+DefCheckCode
+no
+15
+1
+0
+DataArchitect
+LengthCode
+80
+16
+1
+0
+DataArchitect
+UpprCaseCode
+yes
+17
+1
+0
+DataArchitect
+LowrCaseCode
+no
+18
+1
+0
+DataArchitect
+CaseSensCode
+yes
+19
+1
+0
+DataArchitect
+AllowAllCode
+no
+20
+1
+0
+DataArchitect
+AllowChrCode
+'a'-'z', 'A'-'Z', '0'-'9', "_"
+21
+1
+0
+DataArchitect
+InvldChrCode
+
+22
+1
+0
+DataArchitect
+NoAccentCode
+yes
+23
+1
+0
+DataArchitect
+CdmShowName
+yes
+24
+1
+0
+DataArchitect
+CdmShowIdtf
+yes
+25
+1
+0
+DataArchitect
+CdmShowProp
+yes
+26
+1
+0
+DataArchitect
+CdmShowDttp
+no
+27
+1
+0
+DataArchitect
+CdmShowNameLink
+yes
+28
+11
+0
+DataArchitect
+Shadow
+yes
+29
+11
+0
+DataArchitect
+AutoAdjust
+yes
+30
+11
+0
+DataArchitect
+LineStyle
+2
+31
+11
+0
+DataArchitect
+PrnScale
+100
+32
+11
+0
+DataArchitect
+Orientation
+1
+33
+11
+0
+DataArchitect
+DefCheckName
+no
+34
+11
+0
+DataArchitect
+LengthName
+80
+35
+11
+0
+DataArchitect
+UpprCaseName
+no
+36
+11
+0
+DataArchitect
+LowrCaseName
+no
+37
+11
+0
+DataArchitect
+CaseSensName
+no
+38
+11
+0
+DataArchitect
+AllowAllName
+no
+39
+11
+0
+DataArchitect
+AllowChrName
+
+40
+11
+0
+DataArchitect
+InvldChrName
+"+-*/\.,!:;"
+41
+11
+0
+DataArchitect
+NoAccentName
+no
+42
+11
+0
+DataArchitect
+DefCheckCode
+no
+43
+11
+0
+DataArchitect
+LengthCode
+80
+44
+11
+0
+DataArchitect
+UpprCaseCode
+yes
+45
+11
+0
+DataArchitect
+LowrCaseCode
+no
+46
+11
+0
+DataArchitect
+CaseSensCode
+yes
+47
+11
+0
+DataArchitect
+AllowAllCode
+no
+48
+11
+0
+DataArchitect
+AllowChrCode
+'a'-'z', 'A'-'Z', '0'-'9', "_"
+49
+11
+0
+DataArchitect
+InvldChrCode
+
+50
+11
+0
+DataArchitect
+NoAccentCode
+yes
+51
+11
+0
+DataArchitect
+CdmShowName
+yes
+52
+11
+0
+DataArchitect
+CdmShowIdtf
+yes
+53
+11
+0
+DataArchitect
+CdmShowProp
+yes
+54
+11
+0
+DataArchitect
+CdmShowDttp
+no
+55
+11
+0
+DataArchitect
+CdmShowNameLink
+yes
+/END_TABLE AMCPROP
+
+/BEGIN_TABLE AMCSYMB
+@       N5
+SID     N8
+TSYM    N5
+SSYM    N8
+NUMR    N8
+CSID    N8
+SID1    N8
+SID2    N8
+CLND    N8
+CLNN    N5
+RCX1    N8
+RCY1    N8
+RCX2    N8
+RCY2    N8
+PENS    N5
+BRSH    N5
+CTXT    N8
+FONT    N5
+JUST    N5
+WOVL    N8
+HOVL    N8
+SARR    N5
+CARR    N5
+TARR    N5
+NBPT    N8
+LSPT    BIN
+LSTY    N5
+TEXT    TXT
+PICT    PIC
+BTMP    BMP
+GRPH    N8
+OID     N8
+/BEGIN_DATA AMCSYMB
+3
+1486
+257
+32
+1
+0
+0
+0
+0
+0
+-6851
+-871
+-1252
+5578
+2
+1
+0
+0
+0
+0
+0
+0
+0
+0
+0
+
+0
+
+
+
+1
+1
+3
+1560
+257
+34
+2
+0
+0
+0
+0
+0
+4158
+-338
+10232
+5136
+2
+1
+0
+0
+0
+0
+0
+0
+0
+0
+0
+
+0
+
+
+
+1
+145
+3
+1561
+260
+0
+3
+0
+1486
+1560
+0
+0
+0
+0
+0
+0
+2
+3
+0
+0
+0
+0
+0
+13
+0
+15
+2
+93f4ffffa00500008f160000a0050000
+2
+
+
+
+1
+146
+/END_TABLE AMCSYMB
+
+
