@@ -1,9 +1,10 @@
 package com.goldian.fishingsite.Model;
 
 public class ItemModel {
-    private String id_item,id_pengguna,nama,description,harga,jumlah,img, rating;
+    protected String id_item, id_pengguna, nama, description, harga, jumlah, img, rating, sumrater, jenis;
+    protected UserModel userModel = new UserModel();
 
-    public ItemModel(String id_item, String id_pengguna, String nama, String description, String harga, String jumlah, String img, String rating) {
+    public ItemModel(String id_item, String id_pengguna, String nama, String description, String harga, String jumlah, String img, String rating, String sumrater, String jenis, UserModel userModel) {
         this.id_item = id_item;
         this.id_pengguna = id_pengguna;
         this.nama = nama;
@@ -12,6 +13,9 @@ public class ItemModel {
         this.jumlah = jumlah;
         this.img = img;
         this.rating = rating;
+        this.sumrater = sumrater;
+        this.jenis = jenis;
+        this.userModel = userModel;
     }
 
     public String getId_item() {
@@ -76,5 +80,29 @@ public class ItemModel {
 
     public void setRating(String rating) {
         this.rating = rating;
+    }
+
+    public String getSumrater() {
+        return sumrater;
+    }
+
+    public void setSumrater(String sumrater) {
+        this.sumrater = sumrater;
+    }
+
+    public String getJenis() {
+        return jenis;
+    }
+
+    public void setJenis(String jenis) {
+        this.jenis = jenis;
+    }
+
+    public UserModel getUserModel() {
+        return userModel;
+    }
+
+    public void setUserModel(UserModel userModel) {
+        this.userModel = userModel;
     }
 }

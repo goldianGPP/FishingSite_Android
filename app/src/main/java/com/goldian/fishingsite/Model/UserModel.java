@@ -3,6 +3,7 @@ package com.goldian.fishingsite.Model;
 public class UserModel {
     String username, password, email, phone, message;
 
+    UserModel(){}
     public UserModel(String username, String password, String email, String phone, String message) {
         this.username = username;
         this.password = password;

@@ -1,4 +1,4 @@
-package com.goldian.fishingsite.View;
+package com.goldian.fishingsite.Controller_View;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -22,9 +22,22 @@ public class LoginActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
-
         init();
+        listener();
 
+    }
+
+    //----------------------------------------CODE---------------------------------------------------------------------------------------------
+
+    void init(){
+        username = findViewById(R.id.txtUsername);
+        password = findViewById(R.id.txtPassword);
+        login = findViewById(R.id.btnLogin);
+        forgot = findViewById(R.id.txtForgotPassword);
+        register = findViewById(R.id.txtLink);
+    }
+
+    void listener(){
         login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -47,13 +60,5 @@ public class LoginActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-    }
-
-    void init(){
-        username = findViewById(R.id.txtUsername);
-        password = findViewById(R.id.txtPassword);
-        login = findViewById(R.id.btnLogin);
-        forgot = findViewById(R.id.txtForgotPassword);
-        register = findViewById(R.id.txtLink);
     }
 }

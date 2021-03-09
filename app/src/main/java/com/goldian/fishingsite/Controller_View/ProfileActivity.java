@@ -1,4 +1,4 @@
-package com.goldian.fishingsite.View;
+package com.goldian.fishingsite.Controller_View;
 
 import android.os.Bundle;
 
@@ -13,4 +13,6 @@ public class ProfileActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_profile);
     }
+
+    //----------------------------------------CODE---------------------------------------------------------------------------------------------
 }

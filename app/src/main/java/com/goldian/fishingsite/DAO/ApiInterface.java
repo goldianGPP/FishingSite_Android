@@ -1,6 +1,9 @@
 package com.goldian.fishingsite.DAO;
 
+import com.goldian.fishingsite.Model.BenangModel;
 import com.goldian.fishingsite.Model.ItemModel;
+import com.goldian.fishingsite.Model.JoranModel;
+import com.goldian.fishingsite.Model.KailModel;
 import com.goldian.fishingsite.Model.UserModel;
 
 import java.util.List;
@@ -21,8 +24,23 @@ public interface ApiInterface {
     @GET("user")
     Call<List<UserModel>> profileUser();
 
-    @GET("itemrec")
+    @GET("CtrlRecomender/itemrec")
     Call<List<ItemModel>> cucitest();
+
+    @POST("item/detail")
+    @FormUrlEncoded
+    Call<JoranModel> joran(@Field("id_item") String id_item,
+                           @Field("jenis") String jenis);
+
+    @POST("item/detail")
+    @FormUrlEncoded
+    Call<KailModel> kail(@Field("id_item") String id_item,
+                         @Field("jenis") String jenis);
+
+    @POST("item/detail")
+    @FormUrlEncoded
+    Call<BenangModel> benang(@Field("id_item") String id_item,
+                             @Field("jenis") String jenis);
 
 
 }

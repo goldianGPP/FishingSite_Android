@@ -1,4 +1,4 @@
-package com.goldian.fishingsite.View;
+package com.goldian.fishingsite.Controller_View;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -14,7 +14,14 @@ public class SplashActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
+        makeSplashView();
 
+
+    }
+
+    //----------------------------------------CODE---------------------------------------------------------------------------------------------
+
+    void makeSplashView(){
         // langsung pindah ke MainActivity atau activity lain
         // begitu memasuki splash screen ini
         new Handler().postDelayed(new Runnable() {
@@ -27,6 +34,5 @@ public class SplashActivity extends AppCompatActivity {
                 SplashActivity.this.finish();
             }
         }, SPLASH_DISPLAY_TIME);
-
     }
 }

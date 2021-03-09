@@ -2,6 +2,7 @@
 <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/card"
     android:layout_marginLeft="10dp"
+    android:layout_marginBottom="10dp"
     android:layout_width="wrap_content"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     app:cardCornerRadius="10dp"
@@ -16,7 +17,6 @@
 
         <ImageView
             android:id="@+id/imgItem"
-            android:src="@drawable/img_untitled"
             android:scaleType="fitXY"
             android:layout_width="match_parent"
             android:layout_height="150dp" />

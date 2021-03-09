@@ -10,7 +10,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 public class ApiHelper {
     List<ItemModel> itemModels;
 
-    public static final String BASE_URL="http://192.168.100.27:8082/CodeIgniter/fishingsite/api/CtrlRecomender/";
+    public static final String BASE_URL="http://192.168.100.27:8082/CodeIgniter/fishingsite/api/";
     public static Retrofit retrofit = null;
     public static Retrofit getClient(){
         if(retrofit == null)
